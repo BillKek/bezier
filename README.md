@@ -14,8 +14,8 @@ Just a fun little project to learn how to render Bézier Curves.
 
 ```console
 $ make
-$ ./cpu
-$ ./gpu
+$ ./cpu.exe
+$ ./gpu.exe
 ```
 
 ## References
