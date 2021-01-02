@@ -18,6 +18,18 @@ $ ./cpu.exe
 $ ./gpu.exe
 ```
 
+## Setup compiller environment in Windows 
+
+Install latest [msys2_64](https://www.msys2.org/)
+
+Run MSYS2 console : `msys2.exe`
+
+In console install packages with pacman: `pacman -Sy git mingw-w64-i686-toolchain mingw32/mingw-w64-i686-SDL2 mingw32/mingw-w64-i686-SDL2_mixer mingw32/mingw-w64-i686-SDL2_image mingw32/mingw-w64-i686-SDL2_ttf mingw32/mingw-w64-i686-SDL2_net mingw32/mingw-w64-i686-cmake mingw32/mingw-w64-i686-libepoxy make`. (it's for 32 bit version installation)
+
+Add to system `PATH` compiller directory name `C:\msys64\mingw32\bin`
+
+Dublicate `mingw32-make.exe` into `make.exe` to get ability to run make with a classic command `make`.
+
 ## References
 
 - https://www.geogebra.org/m/WPHQ9rUt
