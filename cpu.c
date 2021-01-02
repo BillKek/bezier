@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
         check_sdl_ptr(
             SDL_CreateWindow(
                 "Bezier Curves",
-                0, 0,
+                20, 20,
                 SCREEN_WIDTH,
                 SCREEN_HEIGHT,
                 SDL_WINDOW_RESIZABLE));
