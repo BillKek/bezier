@@ -98,6 +98,7 @@ int ps_at(Vec2 pos)
 
 int main(int argc, char *argv[])
 {
+
     check_sdl_code(
         SDL_Init(SDL_INIT_VIDEO));
 
@@ -212,6 +213,16 @@ int main(int argc, char *argv[])
     }
 
     SDL_Quit();
+
+    if (argc>1)
+	{
+	#define Arg_str "--help"
+        if (memcmp(argv[1],Arg_str,sizeof(Arg_str)-1)==0)
+        {
+            exit(-1);
+        }
+	}
+
 
     return 0;
 }

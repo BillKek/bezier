@@ -153,6 +153,15 @@ int main(int argc, char *argv[])
         SDL_GetWindowSize(window,&w,&h);
     }
 
+    if (argc>1)
+	{
+	#define Arg_str "--help"
+        if (memcmp(argv[1],Arg_str,sizeof(Arg_str)-1)==0)
+        {
+            exit(-1);
+        }
+	}
+
 
     return 0;
 }
