@@ -26,6 +26,8 @@
 		<Unit filename="../gpu.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="../gpu.frag" />
+		<Unit filename="../gpu.vert" />
 		<Extensions>
 			<lib_finder>
 				<lib name="/sdl2" />
