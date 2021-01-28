@@ -41,3 +41,10 @@ Dublicate `mingw32-make.exe` into `make.exe` to get ability to run make with a c
 
 - https://www.geogebra.org/m/WPHQ9rUt
 - https://gist.github.com/jordandee/94b187bcc51df9528a2f
+
+## P.S.
+
+This example is suitable only for the first understanding of shader routines. 
+The example does not show the real possibilities of shaders. 
+To get acquainted with the real capabilities of shaders, it is better to look at [raylib examples](https://github.com/raysan5/raylib/tree/master/examples/shaders).
+
